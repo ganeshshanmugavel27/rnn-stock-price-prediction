@@ -73,13 +73,13 @@ predicted_stock_price = sc.inverse_transform(predicted_stock_price_scaled)
 plt.figure(figsize=(8,3))
 plt.plot(np.arange(0,1384),inputs, color='red', label = 'Test data')
 plt.plot(np.arange(60,1384),predicted_stock_price, color='green',label = 'Predicted stock price')
-plt.title('ROHIT JAIN D - 212222230120\nStock Price Prediction')
+plt.title('GANESH S - 212222040042\nStock Price Prediction')
 plt.xlabel('Time')
 plt.ylabel('Stock Price')
 plt.legend()
 plt.show()
 from sklearn.metrics import mean_squared_error as mse
-print('ROHIT JAIN D')
+print('GANESH S')
 print(mse(y_test,predicted_stock_price))
 ```
 
